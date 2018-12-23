@@ -1,0 +1,100 @@
+.featured-box {
+    background: #F5F5F5;
+    height: 175px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #FFF), color-stop(98%, #fcfcfc)) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: linear-gradient(to bottom, #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #ECECEC;
+    border-radius: 8px;
+    border-right: 1px solid #ECECEC;
+    -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    min-height: 100px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.featured-boxes .featured-box {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.featured-box-effect-1 .icon-featured {
+    transition: transform 0.2s, transform 0.2s, -webkit-transform 0.2s, -webkit-transform 0.2s;
+    transition-property: transform, transform, -webkit-transform, -webkit-transform;
+    transition-duration: 0.2s, 0.2s, 0.2s, 0.2s;
+    transition-timing-function: ease, ease, ease, ease;
+    transition-delay: 0s, 0s, 0s, 0s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    }
+.featured-box-effect-1:hover .icon-featured{
+	transform: scale(1.10);
+}
+html .featured-box-primary .box-content {
+    border-top-color: #007153;
+}
+.featured-box .box-content {
+    border-radius: 8px;
+    border-top: 1px solid #CCC;
+    border-top-width: 4px;
+    padding: 15px 30px 0px 30px;
+    position: relative;
+    top: -1px;
+}
+html .featured-box-primary .icon-featured {
+    background-color: #007153;
+}
+.icon-featured {
+    display: inline-block;
+    font-size: 0;
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #FFF;
+    font-size: 25px;
+    line-height: 80px;
+}
+html .featured-box-primary h4 {
+    color: #1A237E;
+}
+.featured-box h4 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+.btn-custom{
+	color: #fff;
+	background-color: #007153;
+	transition: all 0.2s ease;
+}
+.btn-custom:hover{
+	opacity: 0.9;
+}
+
+.announcement-section{
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #9e9e9e;
+}
+.announcement-section h1{}
+.announcement-section h4{
+    color: #1B3664;
+}
+.announcement-section p{
+    font-size: 14px;
+}
